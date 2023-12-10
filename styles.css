@@ -10,23 +10,27 @@
   position: relative;
 background-color: brown;
 color: black;
+flex-basis: 1;
 }
 .block2{
   position: relative;
   background-color: azure;
   color: dimgrey;
+  flex-basis: 1;
 
 }
 .block3{
   position: relative;
   background-color: black;
   color: aliceblue;
+  flex-basis: 1;
 
 }
 .block4{
   position: relative;
   background-color: blueviolet;
   color: whitesmoke;
+  flex-basis: 1;
 }
 .h4-block1 {
   position: absolute;
