@@ -17,30 +17,26 @@
   position: relative;
 background-color: brown;
 color: black;
-height: 400;
-width: 400;
+flex-basis: 0;
 }
 .block2{
   position: relative;
   background-color: rgb(61, 220, 220);
   color: dimgrey;
-  height: 400;
-width: 400;
+  flex-basis: 0;
 
 }
 .block3{
   position: relative;
   background-color: black;
   color: aliceblue;
-  height: 400;
-width: 400;
+  flex-basis: 0;
 }
 .block4{
   position: relative;
   background-color: blueviolet;
   color: whitesmoke;
-  height: 400;
-width: 400;
+  flex-basis: 0;
 }
 .h4-block1 {
   position: absolute;
