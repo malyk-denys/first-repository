@@ -8,8 +8,68 @@
 }
 
 .block {
-  /* стилі блоків */  
+  padding: 10px;  
 }
+
+.block:nth-child(1) {
+  background-color: #eee;	
+}
+
+.block:nth-child(2) {
+  background-color: #ddd;
+}
+
+.block:nth-child(3) {
+  background-color: #ccc;	
+}
+
+.block:nth-child(4) {
+  background-color: #bbb;
+}
+
+.block h4 {
+  width: 150px;
+  background-color: black;
+  color: white;
+  padding: 5px;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;  
+}
+
+.block:nth-child(1) p {
+  color: #333;
+}
+
+.block:nth-child(2) {
+  color: #222;  
+}
+
+.block:nth-child(3) {
+  color: #111;
+} 
+
+.block:nth-child(4) {
+  color: #000;
+}
+
+.block h4 {
+  font-size: 120%;	
+}
+
+h1, h2, h3 {
+  font-family: 'Open Sans', sans-serif;	
+}
+
+.block h4 {
+  font-family: 'Roboto', sans-serif;
+}
+
+.block p, .block li, .block td {
+  font-family: 'Lato', sans-serif;
+}
+
+
 
 /* Медіа-запити */
 
