@@ -2,11 +2,26 @@
   display: flex;
   flex-wrap: wrap;
 }
-.block {
+.block1 {
   position: relative;
   padding: 10px;
+  
 }
+.block2{
+  position: relative;
+  padding: 10px;
 
+}
+.block3{
+  position: relative;
+  padding: 10px;
+
+}
+.block4{
+  position: relative;
+  padding: 10px;
+  
+}
 .block h4 {
   position: absolute;
   bottom: 10px; 
@@ -19,21 +34,7 @@
   color: white; 
 }
 
-.block:nth-child(1) {
-  background: #eee;  
-}
 
-.block:nth-child(2) {
-  background: #ddd;  
-}
-
-.block:nth-child(3) {
-  background: #ccc;
-}
-
-.block:nth-child(4) {
-  background: #bbb; 
-}
 h1, h2, h3 {
   font-family: 'Open Sans', sans-serif;	
 }
