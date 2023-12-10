@@ -11,22 +11,22 @@
   position: relative;
   padding: 10px;  
 }
-.block p:nth-of-type(1) {
+.block :nth-of-type(1) {
   background-color: #ac5757;	
   color: aliceblue;
 }
 
-.block p:nth-last-of-type(2) {
+.block :nth-of-type(2) {
   background-color: #45be5d;
   color: antiquewhite;
 }
 
-.block p:nth-last-of-type(3) {
+.block :nth-of-type(3) {
   background-color: #ce9754;	
   color: blue;
 }
 
-.block p:nth-last-of-type(4) {
+.block :nth-of-type(4) {
   background-color: #bbb;
   color: black;
 }
@@ -36,7 +36,7 @@
   bottom: 0px;
   right: 0px;
   
-  width: 100px; 
+  width: 70px; 
   padding: 3px;
   
  
