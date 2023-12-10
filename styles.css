@@ -11,6 +11,21 @@
   position: relative;
   padding: 10px;  
 }
+block:nth-child(1) {
+  background-color: #ac5757;	
+}
+
+.block:nth-child(2) {
+  background-color: #45be5d;
+}
+
+.block:nth-child(3) {
+  background-color: #ce9754;	
+}
+
+.block:nth-child(4) {
+  background-color: #bbb;
+}
 
 .block h4 :nth-child(1) {
   position: absolute;
