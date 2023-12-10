@@ -1,140 +1,198 @@
-.container {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.col {
-  padding: 10px; 
-}
-
-.block {
-  position: relative;
-  padding: 10px;  
-}
-.block :nth-of-type(1) {
-  background-color: #ac5757;	
-  color: aliceblue;
-}
-
-.block :nth-of-type(2) {
-  background-color: #45be5d;
-  color: antiquewhite;
-}
-
-.block :nth-of-type(3) {
-  background-color: #ce9754;	
-  color: blue;
-}
-
-.block :nth-of-type(4) {
-  background-color: #bbb;
-  color: black;
-}
-
-.block h4 {
-  position: absolute;
-  bottom: 0px;
-  right: 0px;
-  
-  width: 70px; 
-  padding: 3px;
-  
- 
- 
-}
-
-.block:nth-of-type(1) h4 {
-  background-color: red;  
-  color: black;
-}
-
-.block:nth-of-type(2) h4 {
-  background-color: blue;
-  color: azure;
-}
-
-.block:nth-of-type(3) h4 {
-  background-color: green;
-  color: white;  
-}
-
-.block:nth-of-type(4) h4 {
-  background-color: yellow;
-  color: black;
-}
-
-.block h4 {
-  font-size: 120%;	
-}
-
-h1, h2, h3 {
-  font-family: 'Open Sans', sans-serif;	
-}
-
-.block h4 {
-  font-family: 'Roboto', sans-serif;
-}
-
-.block p, .block li, .block td {
-  font-family: 'Lato', sans-serif;
-}
-
-
-
-/* Медіа-запити */
-
-@media (min-width: 992px) {
-  .container {
-    margin-left: 3.5em;
-    margin-right: 3.5em;
+/* .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+        display:flex !important;
+        flex-direction: row !important;
+        flex-wrap: wrap !important;
+    } */
+    .container{
+      margin-left:3.5em;
+      margin-right:3.5em;
+  }
+  .col-lg-1 {
+    flex-basis: 8.33%;
+  }
+  .col-lg-2 {
+    flex-basis: 16.66%;
+  }
+  .col-lg-3 {
+    flex-basis: 25%;
+  }
+  .col-lg-4 {
+    flex-basis: 33%;
+  }
+  .col-lg-5 {
+    flex-basis: 41.66%;
+  }
+  .col-lg-6 {
+    flex-basis: 50%;
   }
   
-  .col-lg-1 {flex-basis: 8.33%;}
-  .col-lg-2 {flex-basis: 16.66%;}
-  .col-lg-3 {flex-basis: 25%;}
-  .col-lg-4 {flex-basis: 33.33%;}
-  .col-lg-5 {flex-basis: 41.66%;}
-  .col-lg-6 {flex-basis: 50%;}
-  .col-lg-7 {flex-basis: 58.33%;}
-  .col-lg-8 {flex-basis: 66.66%;}
-  .col-lg-9 {flex-basis: 75%;}
-  .col-lg-10 {flex-basis: 83.33%;}
-  .col-lg-11 {flex-basis: 91.66%;}
-  .col-lg-12 {flex-basis: 100%;}
-}
-
-/* Medium screens */
-@media (min-width: 768px) and (max-width: 992px) {
-
-  .col-md-1 {flex-basis: 8.33%;}
-  .col-md-2 {flex-basis: 16.66%;}
-  .col-md-3 {flex-basis: 25%;}
-  .col-md-4 {flex-basis: 33.33%;}
-  .col-md-5 {flex-basis: 41.66%;}
-  .col-md-6 {flex-basis: 50%;}
-  .col-md-7 {flex-basis: 58.33%;}
-  .col-md-8 {flex-basis: 66.66%;}
-  .col-md-9 {flex-basis: 75%;}
-  .col-md-10 {flex-basis: 83.33%;}
-  .col-md-11 {flex-basis: 91.66%;}
-  .col-md-12 {flex-basis: 100%;}
-
-}
-
-/* Small screens */
-@media (max-width: 768px) {
+  .col-lg-7 {
+    flex-basis: 58.33%;
+  }
+  .col-lg-8 {
+    flex-basis: 66.66%;
+  }
+  .col-lg-9 {
+    flex-basis: 75%;
+  }
+  .col-lg-10 {
+    flex-basis: 83.33%;
+  }
+  .col-lg-11 {
+    flex-basis: 91.66%;
+  }
+  .col-lg-12 {
+    flex-basis: 100%;
+  }  
   
-  .col-sm-1 {flex-basis: 8.33%;}
-  .col-sm-2 {flex-basis: 16.66%;}
-  .col-sm-3 {flex-basis: 25%;}
-  .col-sm-4 {flex-basis: 33.33%;}
-  .col-sm-5 {flex-basis: 41.66%;}
-  .col-sm-6 {flex-basis: 50%;}
-  .col-sm-7 {flex-basis: 58.33%;}
-  .col-sm-8 {flex-basis: 66.66%;}
-  .col-sm-9 {flex-basis: 75%;}
-  .col-sm-10 {flex-basis: 83.33%;}
-  .col-sm-11 {flex-basis: 91.66%;}
-  .col-sm-12 {flex-basis: 100%;}
-
+  /* Medium devices */
+  @media (min-width: 768px) and (max-width: 992px) {
+  /* .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+      display:flex !important;
+      flex-direction: row !important;
+      flex-wrap: wrap !important;
+  }     */
+  .col-md-1 {
+    flex-basis: 8.33%;
+  }
+  .col-md-2 {
+    flex-basis: 16.66%;
+  }
+  .col-md-3 {
+    flex-basis: 25%;
+  }
+  .col-md-4 {
+    flex-basis: 33.33%;
+  }
+  .col-md-5 {
+    flex-basis: 41.66%;
+  }
+  .col-md-6 {
+    flex-basis: 50%;
+  }
+  .col-md-7 {
+    flex-basis: 58.33%;
+  }
+  .col-md-8 {
+    flex-basis: 66.66%;
+  }
+  .col-md-9 {
+    flex-basis: 75%;
+  }
+  .col-md-10 {
+    flex-basis: 83.33%;
+  }
+  .col-md-11 {
+    flex-basis: 91.66%;
+  }
+  .col-md-12 {
+    flex-basis: 100%;
+  }
 }
+   @media (max-width: 768px){
+      }
+    .col-sm-1 {
+      flex-basis: 8.33%;
+    }
+    .col-sm-2 {
+      flex-basis: 16.66%;
+    }
+    .col-sm-3 {
+      flex-basis: 25%;
+    }
+    .col-sm-4 {
+      flex-basis: 33.33%;
+    }
+    .col-sm-5 {
+      flex-basis: 41.66%;
+    }
+    .col-sm-6 {
+      flex-basis: 50%;
+    }
+    .col-sm-7 {
+      flex-basis: 58.33%;
+    }
+    .col-sm-8 {
+      flex-basis: 66.66%;
+    }
+    .col-sm-9 {
+      flex-basis: 75%;
+    }
+    .col-sm-10 {
+      flex-basis: 83.33%;
+    }
+    .col-sm-11 {
+      flex-basis: 91.66%;
+    }
+    .col-sm-12 {
+      flex-basis: 100%;
+    }  
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    
+    .col {
+      padding: 10px; 
+    }
+    .block {
+      padding: 10px;  
+    }
+    
+    .block:nth-child(1) {
+      background-color: #eee;	
+    }
+    
+    .block:nth-child(2) {
+      background-color: #ddd;
+    }
+    
+    .block:nth-child(3) {
+      background-color: #ccc;	
+    }
+    
+    .block:nth-child(4) {
+      background-color: #bbb;
+    }
+    
+    .block h4 {
+      width: 150px;
+      background-color: black;
+      color: white;
+      padding: 5px;
+      position: absolute;
+      bottom: 10px;
+      right: 10px;  
+    }
+    
+    .block:nth-child(1) p {
+      color: #333;
+    }
+    
+    .block:nth-child(2) {
+      color: #222;  
+    }
+    
+    .block:nth-child(3) {
+      color: #111;
+    } 
+    
+    .block:nth-child(4) {
+      color: #000;
+    }
+    
+    .block h4 {
+      font-size: 120%;	
+    }
+    
+    h1, h2, h3 {
+      font-family: 'Open Sans', sans-serif;	
+    }
+    
+    .block h4 {
+      font-family: 'Roboto', sans-serif;
+    }
+    
+    .block p, .block li, .block td {
+      font-family: 'Lato', sans-serif;
+    }
