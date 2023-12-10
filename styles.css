@@ -3,18 +3,36 @@
   flex-wrap: wrap;
 }
 .block {
-  padding: 10px;  
+  position: relative;
+  padding: 10px;
 }
+
 .block h4 {
-  width: 150px;
-  background-color: black;
-  color: white;
-  padding: 5px;
   position: absolute;
-  bottom: 10px;
-  right: 10px;  
-  font-size: 120%;
-  font-family: 'Roboto', sans-serif;
+  bottom: 10px; 
+  right: 10px;
+  
+  width: 150px;
+  padding: 5px;
+  
+  background-color: black;
+  color: white; 
+}
+
+.block:nth-child(1) {
+  background: #eee;  
+}
+
+.block:nth-child(2) {
+  background: #ddd;  
+}
+
+.block:nth-child(3) {
+  background: #ccc;
+}
+
+.block:nth-child(4) {
+  background: #bbb; 
 }
 h1, h2, h3 {
   font-family: 'Open Sans', sans-serif;	
