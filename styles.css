@@ -6,31 +6,37 @@
 .col{
   padding: 10px;
 }
+.block1 p{
+  margin: 0;
+}
+.block2 ul{
+  margin: 0;
+}
 .block1 {
   position: relative;
 background-color: brown;
 color: black;
-flex-basis: 1;
+flex-basis: 0;
 }
 .block2{
   position: relative;
   background-color: rgb(61, 220, 220);
   color: dimgrey;
-  flex-basis: 1;
+  flex-basis: 0;
 
 }
 .block3{
   position: relative;
   background-color: black;
   color: aliceblue;
-  flex-basis: 1;
+  flex-basis: 0;
 
 }
 .block4{
   position: relative;
   background-color: blueviolet;
   color: whitesmoke;
-  flex-basis: 1;
+  flex-basis: 0;
 }
 .h4-block1 {
   position: absolute;
