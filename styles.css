@@ -84,10 +84,6 @@ h1, h2, h3 {
   font-family: 'Lato', sans-serif;
 }
 @media (min-width: 992px) {
-  .container {
-    margin-left: 3.5em;
-    margin-right: 3.5em;
-  }
   
   .col-lg-1 {flex-basis: 8.33%;}
   .col-lg-2 {flex-basis: 16.66%;}
