@@ -11,28 +11,28 @@
   position: relative;
   padding: 10px;  
 }
-.block:nth-child(1) {
+.block:nth-of-type(1) {
   background-color: #ac5757;	
 }
 
-.block:nth-child(2) {
+.block:nth-last-of-type(2) {
   background-color: #45be5d;
 }
 
-.block:nth-child(3) {
+.block:nth-last-of-type(3) {
   background-color: #ce9754;	
 }
 
-.block:nth-child(4) {
+.block:nth-last-of-type(4) {
   background-color: #bbb;
 }
 
 .block h4 {
   position: absolute;
-  bottom: 10px;
-  right: 10px;
+  bottom: 0px;
+  right: 0px;
   
-  width: 150px; 
+  width: 100px; 
   padding: 5px;
   
  
