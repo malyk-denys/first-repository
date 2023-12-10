@@ -18,16 +18,12 @@
 background-color: brown;
 color: black;
 flex-basis: 0;
-width: 500;
-height: 300;
 }
 .block2{
   position: relative;
   background-color: rgb(61, 220, 220);
   color: dimgrey;
   flex-basis: 0;
-  width: 500;
-height: 300;
 
 }
 .block3{
@@ -35,16 +31,12 @@ height: 300;
   background-color: black;
   color: aliceblue;
   flex-basis: 0;
-  width: 500;
-  height: 300;
 }
 .block4{
   position: relative;
   background-color: blueviolet;
   color: whitesmoke;
   flex-basis: 0;
-  width: 500;
-height: 300;
 }
 .h4-block1 {
   position: absolute;
