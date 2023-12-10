@@ -4,27 +4,23 @@
 }
 .block1 {
   position: relative;
-  padding: 10px;
 background-color: brown;
 color: black;
 }
 .block2{
   position: relative;
-  padding: 10px;
   background-color: azure;
   color: dimgrey;
 
 }
 .block3{
   position: relative;
-  padding: 10px;
   background-color: black;
   color: aliceblue;
 
 }
 .block4{
   position: relative;
-  padding: 10px;
   background-color: blueviolet;
   color: whitesmoke;
 }
