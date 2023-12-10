@@ -5,40 +5,82 @@
 .block1 {
   position: relative;
   padding: 10px;
-  
+background-color: brown;
+color: black;
 }
 .block2{
   position: relative;
   padding: 10px;
+  background-color: azure;
+  color: dimgrey;
 
 }
 .block3{
   position: relative;
   padding: 10px;
+  background-color: black;
+  color: aliceblue;
 
 }
 .block4{
   position: relative;
   padding: 10px;
-  
+  background-color: blueviolet;
+  color: whitesmoke;
 }
-.block h4 {
+.h4-block1 {
   position: absolute;
-  bottom: 10px; 
-  right: 10px;
+  bottom: 0px; 
+  right: 0px;
   
-  width: 150px;
+  width: 100px;
   padding: 5px;
   
   background-color: black;
-  color: white; 
+  color: brown; 
+}
+
+.h4-block2 {
+  position: absolute;
+  bottom: 0px; 
+  right: 0px;
+  
+  width: 100px;
+  padding: 5px;
+  
+  background-color: dimgray;
+  color: azure; 
+}
+
+.h4-block3 {
+  position: absolute;
+  bottom: 0px; 
+  right: 0px;
+  
+  width: 100px;
+  padding: 5px;
+  
+  background-color: aliceblue;
+  color: black; 
+}
+
+.h4-block4 {
+  position: absolute;
+  bottom: 0px; 
+  right: 0px;
+  
+  width: 100px;
+  padding: 5px;
+  
+  background-color: whitesmoke;
+  color: blueviolet; 
 }
 
 
 h1, h2, h3 {
   font-family: 'Open Sans', sans-serif;	
 }
-.block p, .block li, .block td {
+.block1 p, .block2 li, .block3 td {
   font-family: 'Lato', sans-serif;
 }
 @media (min-width: 992px) {
