@@ -3,9 +3,8 @@
   flex-wrap: wrap;
   align-items: flex-start;
 }
-
-.col {
-  padding: 10px; 
+.col{
+  padding: 10px;
 }
 .block1 {
   position: relative;
@@ -15,7 +14,7 @@ flex-basis: 1;
 }
 .block2{
   position: relative;
-  background-color: azure;
+  background-color: rgb(61, 220, 220);
   color: dimgrey;
   flex-basis: 1;
 
@@ -57,7 +56,7 @@ flex-basis: 1;
   padding: 5px;
   
   background-color: dimgray;
-  color: azure; 
+  color: rgb(61, 220, 220); 
   font-size: 120%;
 }
 
