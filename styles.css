@@ -8,36 +8,38 @@
 }
 
 .block {
+  position: relative;
   padding: 10px;  
-}
-
-.block:nth-child(1) {
-  background-color: #eee;	
-}
-
-.block:nth-child(2) {
-  background-color: #ddd;
-}
-
-.block:nth-child(3) {
-  background-color: #ccc;	
-}
-
-.block:nth-child(4) {
-  background-color: #bbb;
 }
 
 .block h4 {
   position: absolute;
-  bottom: 10px; 
+  bottom: 10px;
   right: 10px;
   
-  width: 150px;
+  width: 150px; 
   padding: 5px;
   
   background-color: black;
-  color: white; 
+  color: white;
 }
+
+.block:nth-child(1) h4 {
+  background-color: red;  
+}
+
+.block:nth-child(2) h4 {
+  background-color: blue;
+}
+
+.block:nth-child(3) h4 {
+  background-color: green;  
+}
+
+.block:nth-child(4) h4 {
+  background-color: yellow;
+}
+
 
 .block:nth-child(1) p {
   color: #333;
