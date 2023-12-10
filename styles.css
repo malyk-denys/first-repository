@@ -16,7 +16,6 @@
   position: relative;
 background-color: brown;
 color: black;
-flex-basis: 0;
 height: 400;
 width: 400;
 }
@@ -24,7 +23,6 @@ width: 400;
   position: relative;
   background-color: rgb(61, 220, 220);
   color: dimgrey;
-  flex-basis: 0;
   height: 400;
 width: 400;
 
@@ -33,7 +31,6 @@ width: 400;
   position: relative;
   background-color: black;
   color: aliceblue;
-  flex-basis: 0;
   height: 400;
 width: 400;
 }
@@ -41,7 +38,6 @@ width: 400;
   position: relative;
   background-color: blueviolet;
   color: whitesmoke;
-  flex-basis: 0;
   height: 400;
 width: 400;
 }
