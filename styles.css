@@ -43,13 +43,14 @@ flex-basis: 0;
   right: 0px;
   
   width: 80px;
-  height: 50px;
+  height: 45px;
   padding: 5px;
   
   background-color: black;
   color: brown; 
   font-size: 120%;
   text-align: center;
+  align-content: center;
 }
 
 .h4-block2 {
@@ -58,13 +59,14 @@ flex-basis: 0;
   right: 0px;
   
   width: 80px;
-  height: 50px;
+  height: 45px;
   padding: 5px;
   
   background-color: dimgray;
   color: rgb(61, 220, 220); 
   font-size: 120%;
   text-align: center;
+  align-content: center;
 }
 
 .h4-block3 {
@@ -73,13 +75,14 @@ flex-basis: 0;
   right: 0px;
   
   width: 80px;
-  height: 50px;
+  height: 45px;
   padding: 5px;
   
   background-color: aliceblue;
   color: black; 
   font-size: 120%;
   text-align: center;
+  align-content: center;
 }
 
 .h4-block4 {
@@ -88,13 +91,14 @@ flex-basis: 0;
   right: 0px;
   
   width: 80px;
-  height: 50px;
+  height: 45px;
   padding: 5px;
   
   background-color: whitesmoke;
   color: blueviolet; 
   font-size: 120%;
   text-align: center;
+  align-content: center;
 }
 
 h4 {
