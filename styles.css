@@ -35,8 +35,8 @@ block:nth-child(1) {
   width: 150px; 
   padding: 5px;
   
-  background-color: black;
-  color: white;
+ 
+ 
 }
 
 .block:nth-child(1) h4 {
