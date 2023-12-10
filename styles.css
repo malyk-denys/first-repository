@@ -55,7 +55,7 @@ width: 400;
   color: brown; 
   font-size: 120%;
   text-align: center;
-  align-content: center;
+
 }
 
 .h4-block2 {
@@ -71,7 +71,7 @@ width: 400;
   color: rgb(61, 220, 220); 
   font-size: 120%;
   text-align: center;
-  align-content: center;
+  
 }
 
 .h4-block3 {
@@ -87,7 +87,7 @@ width: 400;
   color: black; 
   font-size: 120%;
   text-align: center;
-  align-content: center;
+
 }
 
 .h4-block4 {
@@ -103,7 +103,7 @@ width: 400;
   color: blueviolet; 
   font-size: 120%;
   text-align: center;
-  align-content: center;
+
 }
 
 h4 {
