@@ -20,6 +20,8 @@ color: black;
 flex-basis: 0;
 height: 300;
 width: 350;
+margin-left: 10px;
+margin-right: 10px;
 }
 .block2{
   position: relative;
@@ -28,6 +30,8 @@ width: 350;
   flex-basis: 0;
   height: 300;
 width: 350;
+margin-left: 10px;
+margin-right: 10px;
 }
 
 
@@ -38,6 +42,8 @@ width: 350;
   flex-basis: 0;
   height: 300;
 width: 350;
+margin-left: 10px;
+margin-right: 10px;
 }
 
 .block4{
@@ -47,6 +53,8 @@ width: 350;
   flex-basis: 0;
   height: 300;
 width: 350;
+margin-left: 10px;
+margin-right: 10px;
 }
 
 .h4-block1 {
